@@ -1,6 +1,8 @@
-public class Demo {
-    public static void main(String[] args) {
+package org.example;
 
+
+public class Main {
+    public static void main(String[] args) {
         Person[] persons = new Person[3];
 
         persons[0] = new Patient("Alice", 25, "012-3456789", "Asthma", "Breathing issue");
@@ -9,7 +11,7 @@ public class Demo {
 
         for (int i = 0; i < persons.length; i++)
         {
-            persons[i].displayInfo();   
+            persons[i].displayInfo();
             System.out.println();
         }
     }
